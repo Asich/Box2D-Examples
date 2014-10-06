@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9DC1AAD64633485F56E520 /* TestBird.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C9DC3A54AC4835259B4E9AB /* TestBird.mm */; };
 		C26192D414B9B783003A12E8 /* TestSliceBody.mm in Sources */ = {isa = PBXBuildFile; fileRef = C26192D314B9B76E003A12E8 /* TestSliceBody.mm */; };
 		C27488C813B22D8E0047486A /* CCTouchJoint.mm in Sources */ = {isa = PBXBuildFile; fileRef = C27488C713B22D8E0047486A /* CCTouchJoint.mm */; };
 		C27488CF13B236D90047486A /* Box2dScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = C27488CC13B236D90047486A /* Box2dScene.mm */; };
@@ -192,6 +193,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C9DC3A54AC4835259B4E9AB /* TestBird.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestBird.mm; sourceTree = "<group>"; };
+		3C9DCB78BC8E35AC345E1827 /* TestBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBird.h; sourceTree = "<group>"; };
 		C25B701114B877E500336869 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
 		C26192D114B9B28E003A12E8 /* RaycastCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaycastCallback.h; sourceTree = "<group>"; };
 		C26192D214B9B76E003A12E8 /* TestSliceBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSliceBody.h; sourceTree = "<group>"; };
@@ -1222,6 +1225,8 @@
 				C2C8427C13BBB9380059A1A3 /* TestBuoyancy.mm */,
 				C26192D214B9B76E003A12E8 /* TestSliceBody.h */,
 				C26192D314B9B76E003A12E8 /* TestSliceBody.mm */,
+				3C9DC3A54AC4835259B4E9AB /* TestBird.mm */,
+				3C9DCB78BC8E35AC345E1827 /* TestBird.h */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -1461,6 +1466,7 @@
 				C2C8427D13BBB9380059A1A3 /* TestBuoyancy.mm in Sources */,
 				C26192D414B9B783003A12E8 /* TestSliceBody.mm in Sources */,
 				C2FDFD7F14B9DE43001F8669 /* CCRayCast.mm in Sources */,
+				3C9DC1AAD64633485F56E520 /* TestBird.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1519,7 +1525,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = box2dcocos2dexamples/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = Box2DCocos2DExamples;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1538,7 +1544,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = box2dcocos2dexamples/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = Box2DCocos2DExamples;
 				TARGETED_DEVICE_FAMILY = "1,2";

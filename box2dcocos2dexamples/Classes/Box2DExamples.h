@@ -16,7 +16,7 @@
 #define PTM_RATIO 32
 
 // World gravity.
-#define WORLDGRAVITY 20.0f
+#define WORLDGRAVITY 10.0f
 
 /** Convert the given position into the box2d world. */
 static inline float ptm(float d)
